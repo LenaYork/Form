@@ -21,7 +21,7 @@
  
  
 
-<form method="post" class="user-info-form hidden" id="user-info-form">
+<form method="POST" class="user-info-form hidden" id="user-info-form">
 
     <div class="user-info">
         <label for  = 'name'>Enter your name and surname</label>
@@ -84,6 +84,7 @@
 
     const confirmButton = document.querySelector('#confirm-registration-button');
     confirmButton.addEventListener('click', function() {
+         event.preventDefault();
         // alert('confirm button click works!');
         userName =  document.querySelector('#userName').value;
 	    userEmail = document.querySelector('#userEmail').value;
