@@ -1,0 +1,45 @@
+.confirm-button {
+    background-color: #1aaa1a;
+}
+
+.cancel-button {
+    background-color: #f5373a;
+    
+}
+
+button, input {
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button a {
+    color: white;
+}
+
+.user-info-form {
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.center {
+    margin: 0 auto;
+}
+
+
+.bt:focus { outline: none; }
+
+
+.enteredUserInfo{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.hidden {
+    display: none;
+}
