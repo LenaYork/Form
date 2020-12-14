@@ -134,7 +134,8 @@
 					bookButton.classList.add('bt', 'center');
 					bookButton.setAttribute('href', '#hiddenForm');
 					bookButton.innerHTML = "Book this lesson";
-					bookButton.addEventListener('click', function() {
+					bookButton.addEventListener('click', function(event) {
+						event.preventDefault();
 						// $("#user-info-form").toggleClass("hidden");
 						document.getElementById("user-info-form").classList.toggle("hidden");
 						
